@@ -56,3 +56,4 @@ top_3_rules = rules_sorted_by_lift.head(3)
 print("Top 3 rules based on lift:")
 print(top_3_rules[['antecedents', 'consequents', 'support', 'confidence', 'lift']])
 top_3_rules.to_csv('top_three.csv')
+
